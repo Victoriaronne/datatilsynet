@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spørgeskema Datatilsynet</title>
+</head>
+<body>
+    <div class="container">
+        <div class="et">
+            <a href="index.html">
+            <img class="pic" src="logo.png" alt="logo">
+        </a>
+        </div>
+        <div class="to"></div>
+        <div class="tre">
+            <ul class="menu">
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Om Datatilsynet</a></li>
+            <li><a href="#">Internationalt</a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">Rigsfællesskabet</a></li>
+            <li><a href="#">Presse</a></li>
+            <li><a href="#">Søg</a></li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <h1>Spørgeskema vedr. Datatilsynet</h1>
+    </header>
+
+    <div class="survey">
+        <div class="q1">
+            <h3>Kender du til Datatilsynet?</h3>
+            <ul  id="q1" class="option1">
+                <li>Ja</li>
+                <li>Nej</li>
+                <li>måske</li>
+                <li>næ</li>
+            </ul>
+        </div>
+
+        <div id="q2" class="q2">
+            <h3>Hvor har du hørt om Datatilsynet?</h3>
+            <ul class="option2">
+                <li>Arbejdet</li>
+                <li>Privat</li>
+                <li>Internettet</li>
+                <li>Har ikke hørt om dem</li>
+            </ul>
+        </div>
+
+        <div id="q3" class="q3">
+            <h3>Har du været i kontakt med Datatilsynet?</h3>
+            <ul class="option3">
+                <li>Ja</li>
+                <li>Nej</li>
+                <li>Ved ikke</li>
+            </ul>
+        </div>
+
+        <div id="q4" class="q4">
+            <h3>Vidste du, at du via Datatilsynets hjemmeside kan få råd og vejledning i forhold til dine personfølsomme oplysninger?</h3>
+            <ul class="option4">
+                <li>Ja</li>
+                <li>Nej</li>
+            </ul>
+        </div>
+
+        <div id="q5" class="q5">
+            <h3>Behandlingstiden for forespørgsler hos Datatilsynet er oftes afsluttet indenfor 1-2 måneder. Hvad tænker du om denne behandlingstid?</h3>
+            <ul class="option5">
+                <li>Hurtigere end forventet</li>
+                <li>Længere end forventet</li>
+                <li>Tilpas</li>
+                <li>Ved ikke</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="end">
+        <h1>Tak for din deltagelse</h1>
+      <a class="button" href="index.html">Afslut spørgeskema</a>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("ufO0_wig4VkETaUTU");
+})();
+</script>
+</body>
+</html>

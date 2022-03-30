@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    /* background: #eceae6; */
+    color: black;
+    padding: 20px;
+    /* box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4); */
+   
+}
+
+header p{
+    font-size: 16px;
+}
+
+.survey{
+    width: 80%;
+    margin: 20px auto;
+    background: #182740;
+    color: white;
+    height: 200px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
+
+.survey h3{
+    margin: 8px;
+    padding-top: 10px;
+}
+
+.survey li{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.survey li:hover{
+    background: #dfd8c9;
+    width: 150px;
+    margin: 0 auto;
+    padding: 4px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.end{
+    width: 80%;
+    margin: 20px auto;
+    background: #182740;
+    color: white;
+    height: 100px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
+
+.end h1{
+    margin: 5px;
+}
+
+.end p{
+    padding: 10px;
+}
+
+.end a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background: rgb(61, 61, 61);
+    outline: none;
+}
+
+.end a:hover{
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.404);
+    transition: 0.3s;
+}
+
+.button a{
+    background-color: white;
+    border-radius: 10%;
+    
+}
+
+.q1{
+    display: block;
+}
+
+.q2{
+    display: none;
+}
+.q3{
+    display: none;
+}
+
+.q4{
+    display: none;
+}
+
+.q5{
+    display: none;
+}
+
+.end{
+    display:none ;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+
+}
+
+/* ">" betyder, at det kun er de div'er der er direkte efterkommere, der bliver grønne */
+.container>div {
+    /* background-color: green; */
+    color: white;
+    font-size: 2em;
+    padding: 1em;
+    
+}
+
+.container{
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.404);;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-weight: lighter;
+   
+}
+
+.menu a{
+    font-size: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #182740;
+    
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.pic{
+    height: 90%;
+    width: 90%;
+}
+
+.intro{
+    /* background-color: #182740; */
+    color: #182740;
+    padding: 5%;
+   
+}
+
+.intro p{
+    text-align: left;
+    margin-left: 30%;
+    /* margin-right: 20%; */
+    
+}
+
+.intro a{
+    color: #182740;
+}
+
+.intro a:hover{
+    text-decoration: underline;
+}
